@@ -1,0 +1,27 @@
+h1 {
+    color:purple;
+}
+input{
+    width: 200px;
+}
+#submitButton{
+    color:aquamarine;
+    background-color:black;
+}
+th{
+    width: 1000px;
+}
+table, th, tbody, .deleteButton, .completeButton{
+    border-collapse: collapse;
+    border:10px;
+    border-style: groove;
+}
+body{
+    background-color: beige;
+}
+.headers{
+    background-color: black;
+    color: green;
+    border-color:grey;
+    border-style:outset;
+}
