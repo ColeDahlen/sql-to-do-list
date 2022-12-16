@@ -2,46 +2,34 @@
 ## Description
 Duration: Weekend Project
 
+The problem I was given was to make an application that could run a to do list. My application can take in an input print it to the screen and then you can update the status with the "complete" button, and delete the task with a seperate button. My data and logic has to run through a database which then spits it back onto my screen. I solved it with a GET route, a POST route, a PUT route, and a DELETE route.
+
+## Prerequisites
+1. Node
+2. PG
+3. Express
+4. body-parser
+5. Postgres
+6. Postco 1/2
+
+## Installation
+Fork and clone my repo, and then put it into a folder of your choosing. Type npm install when inside your folder in the terminal and it will download all the dependacies that are inside the package.json file. Go into Postico and create a new database called 'toList' and copy the commands from the database.sql file I provided and paste into the SQL query in Postico 2. Next go into Postgres and run the database you just created. Then type node server/server.js into the terminal after that. Then go to a browser and type localhost:5000, and from there everything should be working.
+## Usage
+1. Type a task into the input field.
+2. Press the submit button once you are done typing in the task.
+3. This should then print it to the screen (if there is already tasks it will be the bottom most task).
+4. Once you are done with a task you should the press the Complete button, this will change the status of your task from "Incomplete" to "Complete".
+5. If you don't want to see a task anymore click the delete button to get rid of it.
+
+## Built With
+VS code
+JS
+HTML 5
+CSS 
 
 
-Screen Shot
-Include one or two screen shots of your project here (optional). Remove if unused.
+## Acknowledgement
+Thank you Matt Black for providing great explanations and lessons for how to build all the components required to make this project.
 
-Prerequisites
-Link to software that is required to install the app (e.g. node).
-
-Node.js
-List other prerequisites here
-Installation
-How do you get your application up and running? This is a step by step list for how another developer could get this project up and running. The good target audience in terms of knowledge, would be a fellow Primer from another cohort being able to spin up this project. Note that you do not need a paragraph here to intro Installation. It should be step-by-step.
-
-If your application has secret keys (for example -- Twilio), make sure you tell them how to set that up, both in getting the key and then what to call it in the .env file.
-
-Create a database named your database name,
-The queries in the tables.sql file are set up to create all the necessary tables and populate the needed data to allow the application to run correctly. The project is built on Postgres, so you will need to make sure to have that installed. We recommend using Postico to run those queries as that was used to create the queries,
-Open up your editor of choice and run an npm install
-Run npm run server in your terminal
-Run npm run client in your terminal
-The npm run client command will open up a new browser tab for you!
-Usage
-How does someone use this application? Tell a user story here.
-
-xxx
-xxx
-xxx
-xxx
-xxx
-xxx
-Built With
-List technologies and frameworks here
-
-License
-MIT
-
-Note, include this only if you have a license file. GitHub will generate one for you if you want!
-
-Acknowledgement
-Thanks to Prime Digital Academy who equipped and helped me to make this application a reality. (Thank your people)
-
-Support
-If you have suggestions or issues, please email me at youremail@whatever.com
+## Support
+If you have suggestions or issues, please email me at coledahlen@gmail.com
