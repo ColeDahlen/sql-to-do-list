@@ -22,10 +22,10 @@ Fork and clone my repo, and then put it into a folder of your choosing. Type npm
 5. If you don't want to see a task anymore click the delete button to get rid of it.
 
 ## Built With
-VS code
-JS
-HTML 5
-CSS 
+1. VS code
+2. JS
+3. HTML 5
+4. CSS 
 
 
 ## Acknowledgement
